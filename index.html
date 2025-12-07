@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limgul Font Tester</title>
+    <style>
+        @font-face {
+            font-family: 'Limgul11';
+            src: url('woff/Limgul11.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Limgul12';
+            src: url('woff/Limgul12.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Limgul13';
+            src: url('woff/Limgul13.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Limgul14';
+            src: url('woff/Limgul14.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Limgul15';
+            src: url('woff/Limgul15.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Limgul16';
+            src: url('woff/Limgul16.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Limgul17';
+            src: url('woff/Limgul17.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Limgul18';
+            src: url('woff/Limgul18.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Limgul19';
+            src: url('woff/Limgul19.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Limgul20';
+            src: url('woff/Limgul20.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Limgul21';
+            src: url('woff/Limgul21.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Limgul22';
+            src: url('woff/Limgul22.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Limgul23';
+            src: url('woff/Limgul23.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Limgul24';
+            src: url('woff/Limgul24.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Limgul25';
+            src: url('woff/Limgul25.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'LimgulMono11';
+            src: url('woff/LimgulMono11.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'LimgulMono12';
+            src: url('woff/LimgulMono12.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'LimgulMono13';
+            src: url('woff/LimgulMono13.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'LimgulMono14';
+            src: url('woff/LimgulMono14.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'LimgulMono15';
+            src: url('woff/LimgulMono15.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'LimgulMono16';
+            src: url('woff/LimgulMono16.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'LimgulMono17';
+            src: url('woff/LimgulMono17.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'LimgulMono18';
+            src: url('woff/LimgulMono18.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'LimgulMono19';
+            src: url('woff/LimgulMono19.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'LimgulMono20';
+            src: url('woff/LimgulMono20.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'LimgulMono21';
+            src: url('woff/LimgulMono21.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'LimgulMono22';
+            src: url('woff/LimgulMono22.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'LimgulMono23';
+            src: url('woff/LimgulMono23.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'LimgulMono24';
+            src: url('woff/LimgulMono24.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'LimgulMono25';
+            src: url('woff/LimgulMono25.woff2') format('woff2');
+        }
+
+        :root {
+            --bg-color: #0A0B99;
+            --text-color: #eeeeee;
+            --accent-color: #00f2ff;
+            --panel-header-bg: #25262b;
+            --panel-body-bg: #2c2e33;
+            --border-color: #444;
+            --pixel-shadow: 4px 4px 0px #000;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-family: 'Limgul12', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            image-rendering: pixelated;
+            -webkit-font-smoothing: none;
+        }
+
+        .container {
+            max-width: 800px;
+            width: 90%;
+            padding: 60px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1 {
+            font-family: 'Limgul22';
+            font-size: 44px;
+            margin: 0 0 15px 0;
+            line-height: 1.2;
+            text-shadow: 2px 2px 0 #000;
+        }
+
+        p.description {
+            font-family: 'Limgul11';
+            font-size: 11px;
+            color: #ccc;
+            margin: 0;
+            transform: scale(1.5);
+            transform-origin: top center;
+            margin-bottom: 30px;
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .btn-header {
+            display: inline-block;
+            font-family: 'Limgul16';
+            padding: 12px 24px;
+            font-size: 16px;
+            text-decoration: none;
+            border: 2px solid transparent;
+            cursor: pointer;
+            box-shadow: var(--pixel-shadow);
+            transition: transform 0.1s, box-shadow 0.1s;
+        }
+
+        .btn-header:active {
+            transform: translate(2px, 2px);
+            box-shadow: 2px 2px 0px #000;
+        }
+
+        .btn-github {
+            background-color: transparent;
+            color: var(--accent-color);
+            border-color: var(--accent-color);
+        }
+
+        .btn-github:hover {
+            background-color: rgba(59, 201, 219, 0.1);
+        }
+
+        .btn-all-download {
+            background-color: var(--accent-color);
+            color: #000;
+            font-weight: bold;
+        }
+
+        .btn-all-download:hover {
+            background-color: #66d9e8;
+        }
+
+        .tester-wrapper {
+            width: 100%;
+            border: 2px solid var(--border-color);
+            box-shadow: var(--pixel-shadow);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+
+        .panel-header-group {
+            background-color: var(--panel-header-bg);
+            padding: 25px;
+            border-bottom: 2px dashed var(--border-color);
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+        }
+
+        /* --- 상단 정보 레이아웃 수정 --- */
+        .top-info-row {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* 좌우 끝으로 배치 */
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        /* [NEW] 왼쪽 그룹: 타이틀 + 모노 버튼 */
+        .header-left-group {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            /* 타이틀과 모노 버튼 사이 간격 */
+        }
+
+        .title-area {
+            display: flex;
+            align-items: center;
+        }
+
+        /* 고정 너비를 제거하거나 최소화하여 버튼 밀림 방지 */
+        .font-selector-wrapper {
+            position: relative;
+            z-index: 10;
+            /* 이전의 거대한 min-width: 380px 제거 */
+            min-width: auto;
+        }
+
+        .font-title-display {
+            font-size: 32px;
+            /* 모바일 대응 위해 살짝 줄임 */
+            color: #fff;
+            margin: 0;
+            line-height: 1;
+            text-shadow: 2px 2px 0 #000;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            user-select: none;
+            transition: color 0.2s;
+            white-space: nowrap;
+            /* 줄바꿈 방지 */
+        }
+
+        @media (min-width: 600px) {
+            .font-title-display {
+                font-size: 36px;
+            }
+        }
+
+        .font-title-display:hover {
+            color: var(--accent-color);
+        }
+
+        .dropdown-arrow {
+            font-size: 16px;
+            color: #666;
+            transform: translateY(2px);
+            transition: transform 0.2s;
+        }
+
+        .font-selector-wrapper.open .dropdown-arrow {
+            transform: translateY(2px) rotate(180deg);
+            color: var(--accent-color);
+        }
+
+        .dropdown-list {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 200px;
+            max-height: 250px;
+            overflow-y: auto;
+            background: #111;
+            border: 2px solid var(--border-color);
+            box-shadow: 4px 4px 0 #000;
+            margin-top: 10px;
+            padding: 0;
+            list-style: none;
+            display: none;
+        }
+
+        .font-selector-wrapper.open .dropdown-list {
+            display: block;
+        }
+
+        .dropdown-item {
+            padding: 10px 15px;
+            font-family: 'Limgul12';
+            font-size: 14px;
+            color: #aaa;
+            cursor: pointer;
+            border-bottom: 1px solid #222;
+            transition: all 0.1s;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .dropdown-item:hover {
+            background-color: var(--accent-color);
+            color: #000;
+        }
+
+        .dropdown-item.active {
+            color: var(--accent-color);
+            background: #222;
+            font-weight: bold;
+        }
+
+        .dropdown-item.active:hover {
+            color: #000;
+            background: var(--accent-color);
+        }
+
+        .dropdown-list::-webkit-scrollbar {
+            width: 10px;
+            background: #111;
+        }
+
+        .dropdown-list::-webkit-scrollbar-thumb {
+            background: #444;
+            border: 1px solid #111;
+        }
+
+        .switch-wrapper {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-family: 'Limgul12';
+            font-size: 11px;
+            color: #aaa;
+            background: #111;
+            padding: 4px 8px;
+            border: 1px solid #444;
+            flex-shrink: 0;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 32px;
+            height: 16px;
+        }
+
+        .switch input {
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider-toggle {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #444;
+            transition: .2s;
+        }
+
+        .slider-toggle:before {
+            position: absolute;
+            content: "";
+            height: 10px;
+            width: 10px;
+            left: 3px;
+            bottom: 3px;
+            background-color: white;
+            transition: .2s;
+        }
+
+        input:checked+.slider-toggle {
+            background-color: var(--accent-color);
+        }
+
+        input:checked+.slider-toggle:before {
+            transform: translateX(16px);
+            background-color: #000;
+        }
+
+        .btn-row {
+            display: flex;
+            gap: 0;
+            margin-left: auto;
+            /* PC에서 오른쪽 끝으로 밀기 (wrap시 제외) */
+        }
+
+        .btn-file {
+            text-align: center;
+            padding: 8px 16px;
+            font-family: 'Limgul12';
+            font-size: 12px;
+            text-decoration: none;
+            color: #ccc;
+            background-color: #333;
+            border: 1px solid #555;
+            margin-left: -1px;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            white-space: nowrap;
+        }
+
+        .btn-file:first-child {
+            margin-left: 0;
+        }
+
+        .btn-file:hover {
+            background-color: var(--accent-color);
+            color: #000;
+            border-color: var(--accent-color);
+            z-index: 1;
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .control-group label {
+            font-family: 'Limgul12';
+            font-size: 12px;
+            color: #ccc;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-end;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .value-display {
+            color: var(--accent-color);
+            font-family: 'LimgulMono12', monospace;
+            font-size: 12px;
+            background: #000;
+            padding: 2px 6px;
+            border: 1px solid #333;
+            text-transform: none;
+        }
+
+        input[type=range] {
+            appearance: none;
+            -webkit-appearance: none;
+            width: 100%;
+            background: transparent;
+            margin: 0;
+        }
+
+        input[type=range]:focus {
+            outline: none;
+        }
+
+        input[type=range]::-webkit-slider-runnable-track {
+            width: 100%;
+            height: 8px;
+            cursor: pointer;
+            background: #111;
+            border: 1px solid #444;
+        }
+
+        input[type=range]::-moz-range-track {
+            width: 100%;
+            height: 8px;
+            cursor: pointer;
+            background: #111;
+            border: 1px solid #444;
+        }
+
+        input[type=range]::-webkit-slider-thumb {
+            height: 20px;
+            width: 12px;
+            border: 2px solid #000;
+            background: var(--accent-color);
+            cursor: pointer;
+            -webkit-appearance: none;
+            margin-top: -8px;
+            box-shadow: 2px 2px 0 #000;
+            border-radius: 0;
+        }
+
+        input[type=range]::-moz-range-thumb {
+            height: 20px;
+            width: 12px;
+            border: 2px solid #000;
+            background: var(--accent-color);
+            cursor: pointer;
+            box-shadow: 2px 2px 0 #000;
+            border-radius: 0;
+        }
+
+        .panel-view-controls {
+            background-color: var(--panel-body-bg);
+            padding: 25px;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        #input-view-size::-webkit-slider-thumb {
+            background: #fff;
+        }
+
+        #input-view-size::-moz-range-thumb {
+            background: #fff;
+        }
+
+        #input-line-height::-webkit-slider-thumb {
+            background: #fff;
+        }
+
+        #input-line-height::-moz-range-thumb {
+            background: #fff;
+        }
+
+        textarea {
+            width: 100%;
+            height: 300px;
+            background: var(--panel-body-bg);
+            color: var(--text-color);
+            border: none;
+            outline: none;
+            padding: 30px;
+            box-sizing: border-box;
+            resize: vertical;
+        }
+
+        textarea::-webkit-scrollbar {
+            width: 16px;
+            background: #111;
+        }
+
+        textarea::-webkit-scrollbar-thumb {
+            background: #444;
+            border: 2px solid #111;
+        }
+
+        textarea::-webkit-scrollbar-thumb:hover {
+            background: #666;
+        }
+
+        @media (max-width: 700px) {
+            .panel-view-controls {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .top-info-row {
+                gap: 15px;
+            }
+
+            /* 모바일: 다운로드 버튼을 다음 줄로 */
+            .btn-row {
+                width: 100%;
+                margin-left: 0;
+                justify-content: space-between;
+            }
+
+            .btn-file {
+                flex: 1;
+                justify-content: center;
+            }
+
+            .header-left-group {
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
+
+        footer {
+            margin-top: 60px;
+            margin-bottom: 40px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .footer-content {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            opacity: 0.8;
+            transition: opacity 0.2s;
+        }
+
+        .footer-content:hover {
+            opacity: 1;
+        }
+
+        footer p {
+            font-family: 'Limgul16', sans-serif;
+            font-size: 16px;
+            color: #fff;
+            line-height: 1.2;
+            margin: 0;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+            border-bottom: 2px dotted var(--accent-color);
+            transition: color 0.2s;
+        }
+
+        footer a:hover {
+            color: var(--accent-color);
+            border-bottom-color: var(--accent-color);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>림굴</h1>
+            <p class="description">굴림의 비트맵 글꼴에서 모양을 가져온 픽셀 폰트.</p>
+
+            <div class="header-actions">
+                <a href="https://github.com/MonadABXY/limgul-font/archive/refs/heads/main.zip"
+                    class="btn-header btn-all-download">⬇ 림굴 전체 다운로드</a>
+                <a href="https://github.com/MonadABXY/limgul-font" target="_blank" class="btn-header btn-github">GitHub
+                    저장소</a>
+            </div>
+        </header>
+
+        <div class="tester-wrapper">
+
+            <div class="panel-header-group">
+                <div class="top-info-row">
+
+                    <div class="header-left-group">
+                        <div class="title-area">
+                            <div class="font-selector-wrapper" id="font-selector-wrapper">
+                                <div class="font-title-display" id="display-font-title"
+                                    style="font-family: 'Limgul21';">
+                                    Limgul<span id="display-size-num">12</span>
+                                    <span class="dropdown-arrow">▼</span>
+                                </div>
+
+                                <ul class="dropdown-list" id="dropdown-list">
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="switch-wrapper">
+                            <label class="switch">
+                                <input type="checkbox" id="toggle-mono">
+                                <span class="slider-toggle"></span>
+                            </label>
+                            <span>MONO</span>
+                        </div>
+                    </div>
+
+                    <div class="btn-row">
+                        <a href="#" id="btn-dl-ttf" class="btn-file" target="_blank">⬇ TTF</a>
+                        <a href="#" id="btn-dl-otf" class="btn-file" target="_blank">⬇ OTF</a>
+                        <a href="#" id="btn-dl-woff" class="btn-file" target="_blank">⬇ WOFF2</a>
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>
+                        <span class="value-display" id="val-font-variant">12px</span>
+                    </label>
+                    <div class="range-wrapper">
+                        <input type="range" id="input-font-variant" min="11" max="25" step="1" value="12">
+                    </div>
+                </div>
+            </div>
+
+            <div class="panel-view-controls">
+                <div class="control-group">
+                    <label>
+                        미리보기 확대
+                        <span class="value-display" id="val-view-size">24px</span>
+                    </label>
+                    <div class="range-wrapper">
+                        <input type="range" id="input-view-size" min="11" max="100" step="1" value="24">
+                    </div>
+                </div>
+
+                <div class="control-group">
+                    <label>
+                        줄 간격
+                        <span class="value-display" id="val-line-height">1.2</span>
+                    </label>
+                    <div class="range-wrapper">
+                        <input type="range" id="input-line-height" min="1.0" max="2.5" step="0.05" value="1.2">
+                    </div>
+                </div>
+            </div>
+
+            <textarea id="type-tester" spellcheck="false">
+다람쥐 헌 쳇바퀴에 타고파.
+The quick brown fox jumps over the lazy dog.
+1234567890 !@#$%^&*()
+            </textarea>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <p>
+                    This Font Software is licensed under the <a href="https://scripts.sil.org/OFL" target="_blank">SIL
+                        Open Font License, Version 1.1</a>.<br>
+                    This license is available at: <a href="https://scripts.sil.org/OFL"
+                        target="_blank">https://scripts.sil.org/OFL</a>
+                </p>
+
+                <p>
+                    Copyright © 2025 Monad ABXY.<br>
+                    Reserved Font Name "Limgul".
+                </p>
+
+                <p>
+                    <a href="https://github.com/googlefonts/gulim/blob/main/OFL.txt" target="_blank">Limgul is based on
+                        Gulim</a>.<br>
+                    Gulim Copyright © 2024 The Gulim and Dotum Project Authors.
+                </p>
+            </div>
+        </footer>
+    </div>
+    <script>
+
+        const inputFontVariant = document.getElementById('input-font-variant');
+        const inputViewSize = document.getElementById('input-view-size');
+        const inputLineHeight = document.getElementById('input-line-height');
+        const inputToggleMono = document.getElementById('toggle-mono');
+
+        const valFontVariant = document.getElementById('val-font-variant');
+        const valViewSize = document.getElementById('val-view-size');
+        const valLineHeight = document.getElementById('val-line-height');
+
+        const displayFontTitle = document.getElementById('display-font-title');
+        const displaySizeNum = document.getElementById('display-size-num');
+        const selectorWrapper = document.getElementById('font-selector-wrapper');
+        const dropdownList = document.getElementById('dropdown-list');
+
+        const btnTtf = document.getElementById('btn-dl-ttf');
+        const btnOtf = document.getElementById('btn-dl-otf');
+        const btnWoff = document.getElementById('btn-dl-woff');
+
+        const tester = document.getElementById('type-tester');
+
+        const GITHUB_BASE = "https://github.com/MonadABXY/limgul-font/blob/main";
+
+        function initDropdown() {
+            const min = parseInt(inputFontVariant.min);
+            const max = parseInt(inputFontVariant.max);
+
+            for (let i = min; i <= max; i++) {
+                const li = document.createElement('li');
+                li.className = 'dropdown-item';
+                li.textContent = `Limgul${i}`;
+                li.dataset.value = i;
+
+                li.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                    inputFontVariant.value = i;
+                    updateFont();
+                    closeDropdown();
+                });
+
+                dropdownList.appendChild(li);
+            }
+        }
+
+        function toggleDropdown() {
+            selectorWrapper.classList.toggle('open');
+        }
+
+        function closeDropdown() {
+            selectorWrapper.classList.remove('open');
+        }
+
+        displayFontTitle.addEventListener('click', (e) => {
+            e.stopPropagation();
+            toggleDropdown();
+        });
+
+        document.addEventListener('click', () => {
+            closeDropdown();
+        });
+
+        function updateFont() {
+            const fontSizeVariant = inputFontVariant.value;
+            const cssViewSize = inputViewSize.value;
+            const lineHeightVal = inputLineHeight.value;
+            const isMono = inputToggleMono.checked;
+
+            const baseFontName = isMono ? "LimgulMono" : "Limgul";
+
+            tester.style.fontFamily = `'${baseFontName}${fontSizeVariant}'`;
+            tester.style.fontSize = `${cssViewSize}px`;
+            tester.style.lineHeight = lineHeightVal;
+
+            displayFontTitle.style.fontFamily = `'${baseFontName}${fontSizeVariant}'`;
+
+            displayFontTitle.childNodes[0].nodeValue = baseFontName;
+            displaySizeNum.textContent = fontSizeVariant;
+
+            valFontVariant.textContent = `${fontSizeVariant}px`;
+            valViewSize.textContent = `${cssViewSize}px`;
+            valLineHeight.textContent = lineHeightVal;
+
+            btnTtf.href = `${GITHUB_BASE}/ttf/${baseFontName}${fontSizeVariant}.ttf?raw=true`;
+            btnOtf.href = `${GITHUB_BASE}/otf/${baseFontName}${fontSizeVariant}.otf?raw=true`;
+            btnWoff.href = `${GITHUB_BASE}/woff/${baseFontName}${fontSizeVariant}.woff2?raw=true`;
+
+            const items = dropdownList.querySelectorAll('.dropdown-item');
+            items.forEach(item => {
+                if (item.dataset.value === fontSizeVariant) {
+                    item.classList.add('active');
+                    item.textContent = `${baseFontName}${fontSizeVariant}`;
+                } else {
+                    item.classList.remove('active');
+                    item.textContent = `${baseFontName}${item.dataset.value}`;
+                }
+            });
+        }
+
+        inputFontVariant.addEventListener('input', updateFont);
+        inputViewSize.addEventListener('input', updateFont);
+        inputLineHeight.addEventListener('input', updateFont);
+        inputToggleMono.addEventListener('change', updateFont);
+
+        initDropdown();
+        updateFont();
+    </script>
+
+</body>
+
+</html>
