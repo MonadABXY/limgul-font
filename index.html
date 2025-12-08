@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Limgul Font Tester</title>
+    <title>Limgul</title>
+    <link rel="icon" href="/logo-icon.png">
     <style>
         @font-face {
             font-family: 'Limgul11';
@@ -179,10 +180,30 @@
             -webkit-font-smoothing: none;
         }
 
+        #main-home-btn {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1000;
+            padding: 10px;
+            text-decoration: none;
+            transition: transform 0.6s ease;
+        }
+
+        #main-home-btn:hover {
+            transform: rotate(360deg);
+        }
+
+        #main-home-btn .logo-image {
+            display: block;
+            width: 128px;
+            height: 128px;
+        }
+
         .container {
             max-width: 800px;
             width: 90%;
-            padding: 60px 20px;
+            padding: 80px 20px;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -276,22 +297,18 @@
             gap: 25px;
         }
 
-        /* --- 상단 정보 레이아웃 수정 --- */
         .top-info-row {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            /* 좌우 끝으로 배치 */
             flex-wrap: wrap;
             gap: 20px;
         }
 
-        /* [NEW] 왼쪽 그룹: 타이틀 + 모노 버튼 */
         .header-left-group {
             display: flex;
             align-items: center;
             gap: 15px;
-            /* 타이틀과 모노 버튼 사이 간격 */
         }
 
         .title-area {
@@ -299,17 +316,14 @@
             align-items: center;
         }
 
-        /* 고정 너비를 제거하거나 최소화하여 버튼 밀림 방지 */
         .font-selector-wrapper {
             position: relative;
             z-index: 10;
-            /* 이전의 거대한 min-width: 380px 제거 */
             min-width: auto;
         }
 
         .font-title-display {
             font-size: 32px;
-            /* 모바일 대응 위해 살짝 줄임 */
             color: #fff;
             margin: 0;
             line-height: 1;
@@ -321,7 +335,6 @@
             user-select: none;
             transition: color 0.2s;
             white-space: nowrap;
-            /* 줄바꿈 방지 */
         }
 
         @media (min-width: 600px) {
@@ -465,7 +478,6 @@
             display: flex;
             gap: 0;
             margin-left: auto;
-            /* PC에서 오른쪽 끝으로 밀기 (wrap시 제외) */
         }
 
         .btn-file {
@@ -634,7 +646,6 @@
                 gap: 15px;
             }
 
-            /* 모바일: 다운로드 버튼을 다음 줄로 */
             .btn-row {
                 width: 100%;
                 margin-left: 0;
@@ -694,6 +705,10 @@
 </head>
 
 <body>
+
+    <a href="/" id="main-home-btn" aria-label="메인 페이지로 이동">
+        <img src="/logo-white.png" alt="Monad ABXY Logo" class="logo-image">
+    </a>
 
     <div class="container">
         <header>
