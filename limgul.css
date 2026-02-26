@@ -1,0 +1,213 @@
+@font-face {
+  font-family: "Limgul11";
+  src: url("woff/Limgul11.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Limgul12";
+  src: url("woff/Limgul12.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Limgul13";
+  src: url("woff/Limgul13.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Limgul14";
+  src: url("woff/Limgul14.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Limgul15";
+  src: url("woff/Limgul15.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Limgul16";
+  src: url("woff/Limgul16.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Limgul17";
+  src: url("woff/Limgul17.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Limgul18";
+  src: url("woff/Limgul18.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Limgul19";
+  src: url("woff/Limgul19.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Limgul20";
+  src: url("woff/Limgul20.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Limgul21";
+  src: url("woff/Limgul21.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Limgul22";
+  src: url("woff/Limgul22.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Limgul23";
+  src: url("woff/Limgul23.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Limgul24";
+  src: url("woff/Limgul24.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Limgul25";
+  src: url("woff/Limgul25.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "LimgulMono11";
+  src: url("woff/LimgulMono11.woff2") format("woff2");
+}
+@font-face {
+  font-family: "LimgulMono12";
+  src: url("woff/LimgulMono12.woff2") format("woff2");
+}
+@font-face {
+  font-family: "LimgulMono13";
+  src: url("woff/LimgulMono13.woff2") format("woff2");
+}
+@font-face {
+  font-family: "LimgulMono14";
+  src: url("woff/LimgulMono14.woff2") format("woff2");
+}
+@font-face {
+  font-family: "LimgulMono15";
+  src: url("woff/LimgulMono15.woff2") format("woff2");
+}
+@font-face {
+  font-family: "LimgulMono16";
+  src: url("woff/LimgulMono16.woff2") format("woff2");
+}
+@font-face {
+  font-family: "LimgulMono17";
+  src: url("woff/LimgulMono17.woff2") format("woff2");
+}
+@font-face {
+  font-family: "LimgulMono18";
+  src: url("woff/LimgulMono18.woff2") format("woff2");
+}
+@font-face {
+  font-family: "LimgulMono19";
+  src: url("woff/LimgulMono19.woff2") format("woff2");
+}
+@font-face {
+  font-family: "LimgulMono20";
+  src: url("woff/LimgulMono20.woff2") format("woff2");
+}
+@font-face {
+  font-family: "LimgulMono21";
+  src: url("woff/LimgulMono21.woff2") format("woff2");
+}
+@font-face {
+  font-family: "LimgulMono22";
+  src: url("woff/LimgulMono22.woff2") format("woff2");
+}
+@font-face {
+  font-family: "LimgulMono23";
+  src: url("woff/LimgulMono23.woff2") format("woff2");
+}
+@font-face {
+  font-family: "LimgulMono24";
+  src: url("woff/LimgulMono24.woff2") format("woff2");
+}
+@font-face {
+  font-family: "LimgulMono25";
+  src: url("woff/LimgulMono25.woff2") format("woff2");
+}
+
+.limgul11 {
+  font-family: "Limgul11", sans-serif;
+}
+.limgul12 {
+  font-family: "Limgul12", sans-serif;
+}
+.limgul13 {
+  font-family: "Limgul13", sans-serif;
+}
+.limgul14 {
+  font-family: "Limgul14", sans-serif;
+}
+.limgul15 {
+  font-family: "Limgul15", sans-serif;
+}
+.limgul16 {
+  font-family: "Limgul16", sans-serif;
+}
+.limgul17 {
+  font-family: "Limgul17", sans-serif;
+}
+.limgul18 {
+  font-family: "Limgul18", sans-serif;
+}
+.limgul19 {
+  font-family: "Limgul19", sans-serif;
+}
+.limgul20 {
+  font-family: "Limgul20", sans-serif;
+}
+.limgul21 {
+  font-family: "Limgul21", sans-serif;
+}
+.limgul22 {
+  font-family: "Limgul22", sans-serif;
+}
+.limgul23 {
+  font-family: "Limgul23", sans-serif;
+}
+.limgul24 {
+  font-family: "Limgul24", sans-serif;
+}
+.limgul25 {
+  font-family: "Limgul25", sans-serif;
+}
+
+.limgulmono11 {
+  font-family: "LimgulMono11", monospace;
+}
+.limgulmono12 {
+  font-family: "LimgulMono12", monospace;
+}
+.limgulmono13 {
+  font-family: "LimgulMono13", monospace;
+}
+.limgulmono14 {
+  font-family: "LimgulMono14", monospace;
+}
+.limgulmono15 {
+  font-family: "LimgulMono15", monospace;
+}
+.limgulmono16 {
+  font-family: "LimgulMono16", monospace;
+}
+.limgulmono17 {
+  font-family: "LimgulMono17", monospace;
+}
+.limgulmono18 {
+  font-family: "LimgulMono18", monospace;
+}
+.limgulmono19 {
+  font-family: "LimgulMono19", monospace;
+}
+.limgulmono20 {
+  font-family: "LimgulMono20", monospace;
+}
+.limgulmono21 {
+  font-family: "LimgulMono21", monospace;
+}
+.limgulmono22 {
+  font-family: "LimgulMono22", monospace;
+}
+.limgulmono23 {
+  font-family: "LimgulMono23", monospace;
+}
+.limgulmono24 {
+  font-family: "LimgulMono24", monospace;
+}
+.limgulmono25 {
+  font-family: "LimgulMono25", monospace;
+}
