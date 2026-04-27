@@ -19,13 +19,13 @@ HTML `<link>` 태그 또는 CSS `@import` 방식으로 폰트를 불러온 후 �
 ### `<link>`
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MonadABXY/limgul-font/limgul.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/MonadABXY/limgul-font@main/limgul.css" />
 ```
 
 ### `@import`
 
 ```css
-@import url("https://cdn.jsdelivr.net/gh/MonadABXY/limgul-font/limgul.css");
+@import url("https://cdn.jsdelivr.net/gh/MonadABXY/limgul-font@main/limgul.css");
 ```
 
 ### `폰트 패밀리로 사용`
