@@ -1,213 +1,604 @@
 @font-face {
   font-family: "Limgul11";
-  src: url("woff/Limgul11.woff2") format("woff2");
+  src: url("woff2/Limgul11.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Limgul11";
+  src: url("woff2/Limgul11-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "Limgul12";
-  src: url("woff/Limgul12.woff2") format("woff2");
+  src: url("woff2/Limgul12.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Limgul12";
+  src: url("woff2/Limgul12-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "Limgul13";
-  src: url("woff/Limgul13.woff2") format("woff2");
+  src: url("woff2/Limgul13.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Limgul13";
+  src: url("woff2/Limgul13-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "Limgul14";
-  src: url("woff/Limgul14.woff2") format("woff2");
+  src: url("woff2/Limgul14.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Limgul14";
+  src: url("woff2/Limgul14-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "Limgul15";
-  src: url("woff/Limgul15.woff2") format("woff2");
+  src: url("woff2/Limgul15.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Limgul15";
+  src: url("woff2/Limgul15-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "Limgul16";
-  src: url("woff/Limgul16.woff2") format("woff2");
+  src: url("woff2/Limgul16.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Limgul16";
+  src: url("woff2/Limgul16-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "Limgul17";
-  src: url("woff/Limgul17.woff2") format("woff2");
+  src: url("woff2/Limgul17.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Limgul17";
+  src: url("woff2/Limgul17-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "Limgul18";
-  src: url("woff/Limgul18.woff2") format("woff2");
+  src: url("woff2/Limgul18.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Limgul18";
+  src: url("woff2/Limgul18-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "Limgul19";
-  src: url("woff/Limgul19.woff2") format("woff2");
+  src: url("woff2/Limgul19.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Limgul19";
+  src: url("woff2/Limgul19-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "Limgul20";
-  src: url("woff/Limgul20.woff2") format("woff2");
+  src: url("woff2/Limgul20.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Limgul20";
+  src: url("woff2/Limgul20-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "Limgul21";
-  src: url("woff/Limgul21.woff2") format("woff2");
+  src: url("woff2/Limgul21.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Limgul21";
+  src: url("woff2/Limgul21-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "Limgul22";
-  src: url("woff/Limgul22.woff2") format("woff2");
+  src: url("woff2/Limgul22.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Limgul22";
+  src: url("woff2/Limgul22-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "Limgul23";
-  src: url("woff/Limgul23.woff2") format("woff2");
+  src: url("woff2/Limgul23.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Limgul23";
+  src: url("woff2/Limgul23-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "Limgul24";
-  src: url("woff/Limgul24.woff2") format("woff2");
+  src: url("woff2/Limgul24.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Limgul24";
+  src: url("woff2/Limgul24-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "Limgul25";
-  src: url("woff/Limgul25.woff2") format("woff2");
+  src: url("woff2/Limgul25.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Limgul25";
+  src: url("woff2/Limgul25-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 
 @font-face {
   font-family: "LimgulMono11";
-  src: url("woff/LimgulMono11.woff2") format("woff2");
+  src: url("woff2/LimgulMono11.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LimgulMono11";
+  src: url("woff2/LimgulMono11-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "LimgulMono12";
-  src: url("woff/LimgulMono12.woff2") format("woff2");
+  src: url("woff2/LimgulMono12.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LimgulMono12";
+  src: url("woff2/LimgulMono12-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "LimgulMono13";
-  src: url("woff/LimgulMono13.woff2") format("woff2");
+  src: url("woff2/LimgulMono13.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LimgulMono13";
+  src: url("woff2/LimgulMono13-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "LimgulMono14";
-  src: url("woff/LimgulMono14.woff2") format("woff2");
+  src: url("woff2/LimgulMono14.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LimgulMono14";
+  src: url("woff2/LimgulMono14-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "LimgulMono15";
-  src: url("woff/LimgulMono15.woff2") format("woff2");
+  src: url("woff2/LimgulMono15.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LimgulMono15";
+  src: url("woff2/LimgulMono15-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "LimgulMono16";
-  src: url("woff/LimgulMono16.woff2") format("woff2");
+  src: url("woff2/LimgulMono16.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LimgulMono16";
+  src: url("woff2/LimgulMono16-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "LimgulMono17";
-  src: url("woff/LimgulMono17.woff2") format("woff2");
+  src: url("woff2/LimgulMono17.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LimgulMono17";
+  src: url("woff2/LimgulMono17-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "LimgulMono18";
-  src: url("woff/LimgulMono18.woff2") format("woff2");
+  src: url("woff2/LimgulMono18.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LimgulMono18";
+  src: url("woff2/LimgulMono18-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "LimgulMono19";
-  src: url("woff/LimgulMono19.woff2") format("woff2");
+  src: url("woff2/LimgulMono19.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LimgulMono19";
+  src: url("woff2/LimgulMono19-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "LimgulMono20";
-  src: url("woff/LimgulMono20.woff2") format("woff2");
+  src: url("woff2/LimgulMono20.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LimgulMono20";
+  src: url("woff2/LimgulMono20-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "LimgulMono21";
-  src: url("woff/LimgulMono21.woff2") format("woff2");
+  src: url("woff2/LimgulMono21.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LimgulMono21";
+  src: url("woff2/LimgulMono21-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "LimgulMono22";
-  src: url("woff/LimgulMono22.woff2") format("woff2");
+  src: url("woff2/LimgulMono22.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LimgulMono22";
+  src: url("woff2/LimgulMono22-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "LimgulMono23";
-  src: url("woff/LimgulMono23.woff2") format("woff2");
+  src: url("woff2/LimgulMono23.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LimgulMono23";
+  src: url("woff2/LimgulMono23-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "LimgulMono24";
-  src: url("woff/LimgulMono24.woff2") format("woff2");
+  src: url("woff2/LimgulMono24.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LimgulMono24";
+  src: url("woff2/LimgulMono24-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 @font-face {
   font-family: "LimgulMono25";
-  src: url("woff/LimgulMono25.woff2") format("woff2");
+  src: url("woff2/LimgulMono25.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "LimgulMono25";
+  src: url("woff2/LimgulMono25-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
 }
 
 .limgul11 {
   font-family: "Limgul11", sans-serif;
+  font-weight: 400;
+}
+.limgul11-bold {
+  font-family: "Limgul11", sans-serif;
+  font-weight: 700;
 }
 .limgul12 {
   font-family: "Limgul12", sans-serif;
+  font-weight: 400;
+}
+.limgul12-bold {
+  font-family: "Limgul12", sans-serif;
+  font-weight: 700;
 }
 .limgul13 {
   font-family: "Limgul13", sans-serif;
+  font-weight: 400;
+}
+.limgul13-bold {
+  font-family: "Limgul13", sans-serif;
+  font-weight: 700;
 }
 .limgul14 {
   font-family: "Limgul14", sans-serif;
+  font-weight: 400;
+}
+.limgul14-bold {
+  font-family: "Limgul14", sans-serif;
+  font-weight: 700;
 }
 .limgul15 {
   font-family: "Limgul15", sans-serif;
+  font-weight: 400;
+}
+.limgul15-bold {
+  font-family: "Limgul15", sans-serif;
+  font-weight: 700;
 }
 .limgul16 {
   font-family: "Limgul16", sans-serif;
+  font-weight: 400;
+}
+.limgul16-bold {
+  font-family: "Limgul16", sans-serif;
+  font-weight: 700;
 }
 .limgul17 {
   font-family: "Limgul17", sans-serif;
+  font-weight: 400;
+}
+.limgul17-bold {
+  font-family: "Limgul17", sans-serif;
+  font-weight: 700;
 }
 .limgul18 {
   font-family: "Limgul18", sans-serif;
+  font-weight: 400;
+}
+.limgul18-bold {
+  font-family: "Limgul18", sans-serif;
+  font-weight: 700;
 }
 .limgul19 {
   font-family: "Limgul19", sans-serif;
+  font-weight: 400;
+}
+.limgul19-bold {
+  font-family: "Limgul19", sans-serif;
+  font-weight: 700;
 }
 .limgul20 {
   font-family: "Limgul20", sans-serif;
+  font-weight: 400;
+}
+.limgul20-bold {
+  font-family: "Limgul20", sans-serif;
+  font-weight: 700;
 }
 .limgul21 {
   font-family: "Limgul21", sans-serif;
+  font-weight: 400;
+}
+.limgul21-bold {
+  font-family: "Limgul21", sans-serif;
+  font-weight: 700;
 }
 .limgul22 {
   font-family: "Limgul22", sans-serif;
+  font-weight: 400;
+}
+.limgul22-bold {
+  font-family: "Limgul22", sans-serif;
+  font-weight: 700;
 }
 .limgul23 {
   font-family: "Limgul23", sans-serif;
+  font-weight: 400;
+}
+.limgul23-bold {
+  font-family: "Limgul23", sans-serif;
+  font-weight: 700;
 }
 .limgul24 {
   font-family: "Limgul24", sans-serif;
+  font-weight: 400;
+}
+.limgul24-bold {
+  font-family: "Limgul24", sans-serif;
+  font-weight: 700;
 }
 .limgul25 {
   font-family: "Limgul25", sans-serif;
+  font-weight: 400;
+}
+.limgul25-bold {
+  font-family: "Limgul25", sans-serif;
+  font-weight: 700;
 }
 
 .limgulmono11 {
   font-family: "LimgulMono11", monospace;
+  font-weight: 400;
+}
+.limgulmono11-bold {
+  font-family: "LimgulMono11", monospace;
+  font-weight: 700;
 }
 .limgulmono12 {
   font-family: "LimgulMono12", monospace;
+  font-weight: 400;
+}
+.limgulmono12-bold {
+  font-family: "LimgulMono12", monospace;
+  font-weight: 700;
 }
 .limgulmono13 {
   font-family: "LimgulMono13", monospace;
+  font-weight: 400;
+}
+.limgulmono13-bold {
+  font-family: "LimgulMono13", monospace;
+  font-weight: 700;
 }
 .limgulmono14 {
   font-family: "LimgulMono14", monospace;
+  font-weight: 400;
+}
+.limgulmono14-bold {
+  font-family: "LimgulMono14", monospace;
+  font-weight: 700;
 }
 .limgulmono15 {
   font-family: "LimgulMono15", monospace;
+  font-weight: 400;
+}
+.limgulmono15-bold {
+  font-family: "LimgulMono15", monospace;
+  font-weight: 700;
 }
 .limgulmono16 {
   font-family: "LimgulMono16", monospace;
+  font-weight: 400;
+}
+.limgulmono16-bold {
+  font-family: "LimgulMono16", monospace;
+  font-weight: 700;
 }
 .limgulmono17 {
   font-family: "LimgulMono17", monospace;
+  font-weight: 400;
+}
+.limgulmono17-bold {
+  font-family: "LimgulMono17", monospace;
+  font-weight: 700;
 }
 .limgulmono18 {
   font-family: "LimgulMono18", monospace;
+  font-weight: 400;
+}
+.limgulmono18-bold {
+  font-family: "LimgulMono18", monospace;
+  font-weight: 700;
 }
 .limgulmono19 {
   font-family: "LimgulMono19", monospace;
+  font-weight: 400;
+}
+.limgulmono19-bold {
+  font-family: "LimgulMono19", monospace;
+  font-weight: 700;
 }
 .limgulmono20 {
   font-family: "LimgulMono20", monospace;
+  font-weight: 400;
+}
+.limgulmono20-bold {
+  font-family: "LimgulMono20", monospace;
+  font-weight: 700;
 }
 .limgulmono21 {
   font-family: "LimgulMono21", monospace;
+  font-weight: 400;
+}
+.limgulmono21-bold {
+  font-family: "LimgulMono21", monospace;
+  font-weight: 700;
 }
 .limgulmono22 {
   font-family: "LimgulMono22", monospace;
+  font-weight: 400;
+}
+.limgulmono22-bold {
+  font-family: "LimgulMono22", monospace;
+  font-weight: 700;
 }
 .limgulmono23 {
   font-family: "LimgulMono23", monospace;
+  font-weight: 400;
+}
+.limgulmono23-bold {
+  font-family: "LimgulMono23", monospace;
+  font-weight: 700;
 }
 .limgulmono24 {
   font-family: "LimgulMono24", monospace;
+  font-weight: 400;
+}
+.limgulmono24-bold {
+  font-family: "LimgulMono24", monospace;
+  font-weight: 700;
 }
 .limgulmono25 {
   font-family: "LimgulMono25", monospace;
+  font-weight: 400;
 }
+.limgulmono25-bold {
+  font-family: "LimgulMono25", monospace;
+  font-weight: 700;
+}
+

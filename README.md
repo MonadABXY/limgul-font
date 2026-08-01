@@ -1,6 +1,6 @@
 # limgul 림굴
 
-굴림의 비트맵 글꼴에서 모양을 가져온 픽셀 폰트.
+굴림의 비트맵 글꼴에서 모양을 가져온 픽셀 폰트입니다.
 
 ## 폰트 미리보기
 
@@ -28,16 +28,29 @@ HTML `<link>` 태그 또는 CSS `@import` 방식으로 폰트를 불러온 후 �
 @import url("https://cdn.jsdelivr.net/gh/MonadABXY/limgul-font@main/limgul.css");
 ```
 
-### `폰트 패밀리로 사용`
+### 폰트 패밀리로 사용
 
 ```css
 font-family: "Limgul12", sans-serif;
+font-weight: 400;
+
+font-family: "Limgul12", sans-serif;
+font-weight: 700;
+
+font-family: "LimgulMono12", monospace;
+font-weight: 400;
+
+font-family: "LimgulMono12", monospace;
+font-weight: 700;
 ```
 
-### `클래스로 사용`
+### 클래스로 사용
 
-```css
+```html
 <div class="limgul12">림굴 12px</div>
+<div class="limgul12-bold">림굴 12px Bold</div>
+<div class="limgulmono12">림굴 Mono 12px</div>
+<div class="limgulmono12-bold">림굴 Mono 12px Bold</div>
 ```
 
 ## 권장 크기
@@ -45,23 +58,23 @@ font-family: "Limgul12", sans-serif;
 폰트가 흐릿해지는 현상을 방지하고 또렷하게 출력하기 위해 **지정된 기본 픽셀 크기 또는 그 정수 배수**로 사용하는 것을 권장합니다.
 고해상도 또는 인쇄물에서는 신경쓰지 않아도 됩니다.
 
-| 폰트 종류    | px     | pt        |
-| :----------- | :----- | :-------- |
-| **limgul11** | `11px` | `8.25pt`  |
-| **limgul12** | `12px` | `9pt`     |
-| **limgul13** | `13px` | `9.75pt`  |
-| **limgul14** | `14px` | `10.5pt`  |
-| **limgul15** | `15px` | `11.25pt` |
-| **limgul16** | `16px` | `12pt`    |
-| **limgul17** | `17px` | `12.75pt` |
-| **limgul18** | `18px` | `13.5pt`  |
-| **limgul19** | `19px` | `14.25pt` |
-| **limgul20** | `20px` | `15pt`    |
-| **limgul21** | `21px` | `15.75pt` |
-| **limgul22** | `22px` | `16.5pt`  |
-| **limgul23** | `23px` | `17.25pt` |
-| **limgul24** | `24px` | `18pt`    |
-| **limgul25** | `25px` | `18.75pt` |
+| 폰트 종류 | px | pt |
+| :--- | :--- | :--- |
+| **Limgul11** / Mono / Bold | `11px` | `8.25pt` |
+| **Limgul12** / Mono / Bold | `12px` | `9pt` |
+| **Limgul13** / Mono / Bold | `13px` | `9.75pt` |
+| **Limgul14** / Mono / Bold | `14px` | `10.5pt` |
+| **Limgul15** / Mono / Bold | `15px` | `11.25pt` |
+| **Limgul16** / Mono / Bold | `16px` | `12pt` |
+| **Limgul17** / Mono / Bold | `17px` | `12.75pt` |
+| **Limgul18** / Mono / Bold | `18px` | `13.5pt` |
+| **Limgul19** / Mono / Bold | `19px` | `14.25pt` |
+| **Limgul20** / Mono / Bold | `20px` | `15pt` |
+| **Limgul21** / Mono / Bold | `21px` | `15.75pt` |
+| **Limgul22** / Mono / Bold | `22px` | `16.5pt` |
+| **Limgul23** / Mono / Bold | `23px` | `17.25pt` |
+| **Limgul24** / Mono / Bold | `24px` | `18pt` |
+| **Limgul25** / Mono / Bold | `25px` | `18.75pt` |
 
 ## 라이선스 및 크레딧
 

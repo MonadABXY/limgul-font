@@ -1,4 +1,4 @@
-Copyright 2025 Monad ABXY (https://monadabxy.com), with Reserved Font Name "Limgul".
+Copyright 2025 Monad ABXY (https://monadabxy.com).
 Copyright 2024 The Gulim and Dotum Project Authors (https://github.com/googlefonts/gulim)
 
 This Font Software is licensed under the SIL Open Font License, Version 1.1.
